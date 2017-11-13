@@ -7,7 +7,6 @@ import com.youth.banner.view.BannerViewPager;
 
 
 public class CustomViewPager extends BannerViewPager {
-    // do something by yourself.
 
     public CustomViewPager(Context context) {
         super(context);

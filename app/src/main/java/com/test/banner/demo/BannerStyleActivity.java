@@ -23,7 +23,6 @@ public class BannerStyleActivity extends AppCompatActivity implements  AdapterVi
         spinnerStyle = (Spinner) findViewById(R.id.spinnerStyle);
         spinnerStyle.setOnItemSelectedListener(this);
 
-        //默认是CIRCLE_INDICATOR
         banner.setImages(App.images)
                 .setBannerTitles(App.titles)
                 .setBannerStyle(BannerConfig.NOT_INDICATOR)
